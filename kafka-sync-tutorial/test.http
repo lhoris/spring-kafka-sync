@@ -1,0 +1,11 @@
+POST http://localhost:8071/basic/order
+Content-Type: application/json
+
+{
+  "custNm" : "이성훈",
+  "cardNo" : "1234-1234-2222-4444-6666-8888",
+  "bankAcntNo" : "860202-01-394331",
+  "orderProductNo" : 756221,
+  "orderProductNm" : "불닭볶음면",
+  "quantity" : "5"
+}
